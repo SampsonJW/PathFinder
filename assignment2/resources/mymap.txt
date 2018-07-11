@@ -1,0 +1,16 @@
++------------------------------------+
+|XXSXXG                              |
+|XX XX  X   XXXXXXXXXXXX XX          |
+|XX  XX XXXXXXXXXXXXXXXXXXX          |
+|XXX  XX                    	     |
+|XXXX XX         X      X            |
+|X X   X         X      X            |
+|  X   X         X      X            |
+|  X   X         X     X             | 
+|  X   X  X X X XX     X             |
+|  X   X X X X X X     X             |
+|  X   X         X     X             |
+|  X   X X X X X X     X             |
+|     X XXXXXXXX X     X             |
+|                                    |
++------------------------------------+

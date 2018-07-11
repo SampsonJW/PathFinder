@@ -1,0 +1,108 @@
+
+;; (defn best-first
+;;   ""
+;;   [mapFile]
+;;   (let[daMap(read-map-from-file mapFile)
+;;        p(priority-map)
+;;           newState(peek(apply assoc p(interleave (expand daMap) (map heuristic (expand daMap)))))]
+;;             ;;check to see if goal state == new position
+;;             (if (= (last(get-positions (first newState))) (goal daMap)) (println " Done!") (println "Not done!"))
+;;             )
+;; )
+
+;; (defn best-first
+;;   ""
+;;   [fileName]
+;;   (let[daMap(read-map-from-file fileName)
+;;        expanded(expand daMap)
+;;        p-map(priority-map(expanded (map heuristic expanded)))
+;;        newState((peek(apply assoc p-map(interleave (expand daMap) (map heuristic (expand daMap))))))]
+;;       (loop[p-map ])
+
+;;           (if (= (last(get-positions (first newState))) (goal daMap)) (println "Done!")
+
+;;             (recur(state(peek(apply assoc p-map(interleave (expand daMap) (map heuristic (expand daMap))))))
+
+;;                   (start-pos(last(get-positions(first(newState)))))))
+;;     )
+;; )
+
+
+
+;; (defn best-first
+;;   ""
+;;   [mapFile]
+;;   (let[daMap(read-map-from-file mapFile)]
+;;         (loop[queue (priority-map state (heuristic state))]
+;;         (let [newState (peek queue)]
+;;           (if (newState is goal pos)
+;;               (do some shit)
+;;               (recur (into (pop queue) ([s1 hs1][s2 hs2]))))))))
+
+
+;; (defn best-first
+;;   ""
+;;   [mapFile]
+;;   (let[daMap(read-map-from-fil        (recur (into (pop queue) ([s1 hs1][s2 hs2]))))))))
+
+
+;; (defn best-first
+;;   ""
+;;   [mapFile]
+;;   (let[daMap(read-map-from-file mapFile)
+;;        p(priority-map)]
+
+;;         (loop[state (daMap) posit(position daMap)]
+
+;;         (let [newState (peek(apply assoc p(interleave (expand state) (map heuristic (expand state)))))]
+
+;;           (if (= (last(get-positions (first newState)))) (print-state newState)
+;;             (recur (newState) (rest(get-positions (first newState)))))))
+;;   )
+
+;; )
+
+
+
+;; (defn best-first
+;;   ""
+;;   [mapFile]
+;;   (let[daMap(read-map-from-file mapFile)
+;;        p(priority-map)e mapFile)
+;;        p(priority-map)]
+
+;;         (loop[state (daMap) posit(position daMap)]
+
+;;         (let [newState (peek(apply assoc p(interleave (expand state) (map heuristic (expand state)))))]
+
+;;           (if (= (last(get-positions (first newState)))) (print-state newState)
+;;             (recur (newState) (rest(get-positions (first newState)))))))
+;;   )
+
+;; )
+
+
+
+
+
+
+
+
+
+;; (defn best-first-search
+;;   ""
+;;   ([state]
+;;    (best-first-search (priority-map(state (heuristic state)) [] 0)))
+
+;;   ([open prevpos counter]
+;;    (let[currState(first(peek open))]
+;;       (if (= (position currState) (goal daMap))
+;;         (print-state currState)
+;;         (recur(into(pop open) (expand currState )) ))))
+;; )
+
+;; (defn best-first
+;;   ""
+;;   [filename]
+;;   (best-first-search (read-map-from-file filename))
+;; )
